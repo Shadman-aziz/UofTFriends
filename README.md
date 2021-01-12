@@ -1,4 +1,4 @@
-Our app is a platform for University of Toronto students to connect
+This web-app is a platform for University of Toronto students to connect
 and communicate with other students in their courses or programs.
 
 ## URL
@@ -8,8 +8,8 @@ https://floating-brook-03042.herokuapp.com/
 ## Getting Started
 
 ```
-git clone https://github.com/csc309-fall-2020/team02.git
-cd team02
+git clone https://github.com/Shadman-aziz/UofTFriends.git
+cd UofTFriends
 npm install
 npm start
 ```
