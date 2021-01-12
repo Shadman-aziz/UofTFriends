@@ -1,0 +1,106 @@
+.messagesBox {
+	width: 80%;
+	height: fit-content;
+	margin: auto;
+	margin-top: 1.5vh;
+	padding-top: 0px;
+	border-radius: 50px;
+	min-height: 700px;
+}
+
+/* Container for messages. */
+.messages {
+
+	height: 82.5vh;
+	padding: 15px;
+	overflow: auto;
+
+	background-color: white;
+	border-radius: 10px;
+	box-shadow: 0px 3px 3px 3px #888888;
+}
+
+/* Container for sent messages.. */
+.userMsgContainer {
+	display: flex;
+	flex-direction: row-reverse;
+	align-items: center;
+	margin-top: 15px;
+}
+
+/* Container for recieved messages. */
+.msgContainer {
+	display: flex;
+	align-items: center;
+	margin-top: 15px;
+}
+
+.msgSender {
+	font-weight: lighter;
+}
+.msgSenderPic {
+	background-color: Blue;
+	border-radius: 50%;
+}
+
+.msgText {
+
+	width: fit-content;
+	margin: 0px 10px;
+	padding: 5px 25px;
+
+	background-color: rgb(121, 117, 117);
+	color: white;
+	font-size: 1.25rem;
+	border-radius: 25px;
+	font-weight: bolder;
+	box-shadow: 0px 4px 5px 1px #888888;
+}
+
+/* Message input tray. */
+.messageInputTray {
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	margin: auto;
+	margin-top: 1.5vh;
+}
+
+.messageInput {
+	width: 80%;
+	padding: 10px;
+	border-top-left-radius: 10px;
+	border-bottom-left-radius: 10px;
+	outline: none;
+}
+
+.messageButton {
+	width: 20%;
+	border-top-right-radius: 10px;
+	border-bottom-right-radius: 10px;
+	outline: none;
+	background-color: rgb(121, 117, 117);
+	color: white;
+	font-size: 1vw;
+}
+
+.messageButton:hover {
+	color: white;
+	text-decoration: none;
+	cursor: pointer;
+	background-color: #213e3b;
+}
+
+.reportButton {
+	color: white;
+	border-radius: 10px;
+	background-color: #ff1111;
+	border: none;
+	box-shadow: 0px 4px 5px 1px #888888;
+}
+
+.reportButton:hover {
+	text-decoration: none;
+	cursor: pointer;
+	background-color: #213e3b;
+}
